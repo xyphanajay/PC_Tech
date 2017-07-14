@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="20dp"
+    android:layout_height="wrap_content">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/head"
+        android:text="ROBOTICS"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/head"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="There are no limits to the human imagination and intelligence. The presence of Artificial Intelligence and Robotics proves it. Robots are certainly bridging the gap between digital and physical world and dramatically changing every aspect of human life. Robotics is the synergistic combination of electrical engineering, mechanical engineering and computer science engineering for the construction, designing and application of robots.\n\nWe’re working on the development of humanoid robots for use in domestic, industrial and government markets. From performing basic household chores to heavy industrial tasks; Thedomain of application for the robots created by us is limitless. We also offer solutions for the education and for events.\n\nRobotics is a branch of Artificial Intelligence (AI), it is mainly composed of electrical engineering, mechanical engineering and computer science engineering for construction, designing and application of robots."/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/b"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="
+The advancement of digitalization and the widespread networking of devices and systems opens new automation and optimization potentials. Terms like Cyber-Physical Systems (CPS) address technologies and concepts to realize the next generation of networked sensing capabilities and data propagation. For the industrial domain, these terms have been further specialized (e. g. cyber physical production systems). Thereby, the changes are characterized by manufacturing entities that are, on all levels, autonomous, in the sense that they incorporate planning systems and adjust themselves in response to changing environments.
+"/>
+    </LinearLayout>
+
+</RelativeLayout>
+</ScrollView>
