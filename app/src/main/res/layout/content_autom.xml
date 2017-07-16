@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp">
+        <ImageView
+            android:layout_height="180dp"
+            android:layout_width="match_parent"
+            android:src="@drawable/fined"
+            android:layout_marginTop="40dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/finei"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/finei"
+                android:id="@+id/fineh"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:text="Fine Dine"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000"
+            android:layout_below="@id/fineh"
+            android:id="@+id/finet"
+            android:layout_centerHorizontal="true"
+            android:text="Say goodbye to awful service and long waiting queues with our innovative technology. Bringing to you the fully automated fine dine experience with quick service. Apart from customer satisfaction, our technology aims at cutting costs and boosting sales. We ensure hot and fresh food is served to your customers and they keep coming back for more. "/>
+
+        <ImageView
+            android:layout_height="180dp"
+            android:layout_width="match_parent"
+            android:src="@drawable/techo"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/finet"
+            android:scaleType="centerCrop"
+            android:id="@+id/homei"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/homei"
+            android:id="@+id/homeh"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:text="Home Automation"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000"
+            android:layout_below="@id/homeh"
+            android:id="@+id/homet"
+            android:layout_centerHorizontal="true"
+            android:text="With home automation technology, you can control devices in
+            your home from the mobile device. With our project Tech-O-Home, we are focusing
+             on delivering solutions for the smart homes in which nearly everything -- lights,
+              appliances, electrical outlets, heating and cooling systems -- are hooked up to a
+              remotely controllable network. Now everything is literally at your fingertips."
+            android:layout_marginBottom="30dp"/>
+    </RelativeLayout>
+</ScrollView>
+
