@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:layout_margin="20dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textSize="20dp"
+        android:id="@+id/cont"
+        android:text="Are you ready to take your career up a level?\nWe offer students doing engineering,\nbusiness and science degree courses to
+        gain hands-on-experience\nin the revolutionary fields of 3D Printing and Robotics.\nAt Proxbotics Creation Technologies, we work towards the
+        realization of\ninnovative ideas that make daily life easier.\n\nJoin us at our workplace where we provide extensive training, guidance and support,
+        \nas well as the opportunity to experience the industry from the inside."
+        android:textColor="#000"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:text="If you are interested in applying for the internship, click on APPLY NOW and mail us your resume."
+        android:layout_below="@id/cont"
+        android:id="@+id/cont2"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cont2"
+        android:layout_centerHorizontal="true"
+        android:text="Apply Now"
+        android:layout_marginTop="40dp"
+        android:id="@+id/apply"/>
+</RelativeLayout>
+</ScrollView>
