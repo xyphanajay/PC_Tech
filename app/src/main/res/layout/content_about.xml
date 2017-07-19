@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+
+    android:layout_width="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:layout_marginTop="40dp"
+        android:text="Experience with us the journey from concept to construct. At Proxbotics Creation Technologies, we are continuously working over the idea of making technology a part of everyday life. Our implementations target the simplest approach for a common man. We’re bringing together a dynamic team of young programmers and envisioners. With Home Automation, we wish to bring ease in your daily life."
+        android:layout_below="@id/head"
+        android:id="@+id/cont"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cont"
+        android:id="@+id/version"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginTop="20dp"
+        android:text="P.C. Tech\nVersion 1.0"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#000"
+        android:textStyle="italic"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/version"
+        android:text="App Developer - Ajay"/>
+
+</RelativeLayout>
