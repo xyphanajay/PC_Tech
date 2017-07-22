@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Home" />
+        <item
+            android:id="@+id/projects"
+            android:icon="@android:drawable/arrow_up_float"
+            android:title="Projects" />
+
+        <item
+            android:id="@+id/product"
+            android:icon="@android:drawable/ic_menu_sort_alphabetically"
+            android:title="Products" />
+        <item
+            android:id="@+id/calculator"
+            android:icon="@android:drawable/star_big_on"
+            android:title="Calculator" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/contact"
+                android:icon="@android:drawable/ic_dialog_email"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/ic_menu_send"
+                android:title="About Us" />
+        </menu>
+    </item>
+
+</menu>
